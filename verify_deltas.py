@@ -136,6 +136,7 @@ def main():
     # Consider RELEASED revisions for the context (snap, arch).
     sources = RELEASED_REVISIONS.get(
         (args.name, args.architecture), []) + [stable_revision]
+    sources = list(set(sources))
 
     results = get_deltas(snap_id, args.architecture, sources, args.candidate)
     candidate_revision = results[0]['snap']['revision']

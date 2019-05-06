@@ -23,23 +23,34 @@ RELEASED_REVISIONS = {
         5897,
         6034,
         6130,
+        6350,
+        6531,
+        6405,
+        6673,
     ],
     # The Gnome snaps are only seeded in Ubuntu Desktop images, and some have
     # the same revision, accounting for some having only 2 baked revisions over
     # 3 images.
     ('gnome-3-26-1604', 'amd64'): [
-        49,
+        59,
         70,
+        74,
+    ],
+    ('gnome-3-28-1804', 'amd64'): [
+        31,
     ],
     ('gnome-calculator', 'amd64'): [
         154,
         180,
         238,
+        260,
     ],
     ('gnome-characters', 'amd64'): [
         69,
         103,
         124,
+        139,
+        254,
     ],
     ('gnome-logs', 'amd64'): [
         25,
@@ -50,11 +61,13 @@ RELEASED_REVISIONS = {
         36,
         51,
         57,
+        77,
     ],
     # This is only seeded on 18.04.1 and 18.10
     ('gtk-common-themes', 'amd64'): [
         319,
         701,
+        818,
     ],
 }
 
